@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 })
 
 function createCard(toy, container) {
+
   let card = document.createElement('div');
   card.setAttribute('class', 'card');
   card.id = 'card-' + toy.id;
@@ -96,9 +97,15 @@ function like(event){
 
   let cardId = event.currentTarget.parentNode.id;
   let toyId = cardId.split('-')[1]
-  let newLike = parseInt(event.currentTarget.parentNode.querySelector('p').innerText.split(" ")[0]) + 1
-  
+  let newLike;
+    if (event.currentTarget.parentNode.querySelector === 'Unloved toy') {
+      newLike = 1;
+    } else {
+      newLike = parseInt(event.currentTarget.parentNode.querySelector('p').innerText.split(" ")[0]) + 1
+    }
+
   let configObj = {
+
     method: 'PATCH',
     headers: {
       "Content-Type": "application/json",
@@ -123,7 +130,16 @@ function like(event){
 function updateLike(toy){
 
   let card = document.getElementById(toy)
-  let newNumber = parseInt(card.querySelector('p').innerText.split(" ")[0]) + 1
-  card.querySelector('p').innerText = newNumber + ' likes'
+  let newNumber;
+  if (card.querySelector('p').innerText === 'Unloved toy') { 
+    newNumber = 1;
+  } else {
+    newNumber = parseInt(card.querySelector('p').innerText.split(" ")[0]) + 1;
+  } 
   
+  if (newNumber === 1) {
+    card.querySelector('p').innerText = newNumber + ' like';
+  } else {
+    card.querySelector('p').innerText = newNumber + ' likes';
+  }
 }
