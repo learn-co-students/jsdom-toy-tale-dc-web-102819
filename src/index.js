@@ -45,7 +45,7 @@ function RenderToys(toy) {
   let toyLikeBtn = document.createElement("button")
   toyLikeBtn.classList.add("likeBtn")
   toyLikeBtn.id = `like-${toy.id}`
-  toyLikeBtn.innerText = "Like <3"
+  toyLikeBtn.innerText = "Like ❤️️"
 
   newToy.addEventListener("click", increaseLikes)
 
