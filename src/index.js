@@ -59,14 +59,13 @@ function RenderToys(toy) {
 }
 
 function increaseLikes(e){
-  let getId = document.getElementById("")
+  let getId = e.target.id.split("-")[1]
   let value =  parseInt(e.currentTarget.getElementsByTagName("p")[0].innerText.split(" ")[0], 10)
   value += 1
   
-  let toy_id = 3 // just to test 
   
   
-  fetch(`http://localhost:3000/toys/${toy_id}`, {
+  fetch(`http://localhost:3000/toys/${getId}`, {
     method: "PATCH",
     headers: {
       "Content-Type": "application/json",
@@ -74,6 +73,9 @@ function increaseLikes(e){
     },
     body: JSON.stringify({"likes": value}) 
   })
+
+  e.currentTarget.getElementsByTagName("p")[0].innerText = value + " likes"
+  
 }    
 
 
