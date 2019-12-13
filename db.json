@@ -10,19 +10,19 @@
       "id": 2,
       "name": "Buzz Lightyear",
       "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 8
+      "likes": 17
     },
     {
       "id": 3,
       "name": "Mr. Potato Head",
       "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "likes": 3
+      "likes": 51129
     },
     {
       "id": 4,
       "name": "Slinky Dog",
       "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
-      "likes": 4
+      "likes": 9
     },
     {
       "id": 5,
@@ -47,6 +47,54 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "name": "Toy Soldier",
+      "image": "https://previews.123rf.com/images/fabrikacrimea/fabrikacrimea1705/fabrikacrimea170518767/79093580-collection-of-traditional-toy-soldiers.jpg",
+      "likes": 0,
+      "id": 9
+    },
+    {
+      "name": "Tickle Me Elmo",
+      "image": "https://i5.walmartimages.com/asr/178554d0-a564-4413-85dd-0472e0d08b8e_1.c681da5fb244ec3b6fb9963a22b87612.jpeg?odnWidth=450&odnHeight=450&odnBg=ffffff",
+      "likes": 0,
+      "id": 10
+    },
+    {
+      "name": "Elmo",
+      "image": "https://i5.walmartimages.com/asr/178554d0-a564-4413-85dd-0472e0d08b8e_1.c681da5fb244ec3b6fb9963a22b87612.jpeg?odnWidth=450&odnHeight=450&odnBg=ffffff",
+      "likes": 0,
+      "id": 11
+    },
+    {
+      "name": "Red Monster",
+      "image": "https://i5.walmartimages.com/asr/178554d0-a564-4413-85dd-0472e0d08b8e_1.c681da5fb244ec3b6fb9963a22b87612.jpeg?odnWidth=450&odnHeight=450&odnBg=ffffff",
+      "likes": 0,
+      "id": 12
+    },
+    {
+      "name": "Sesame Street Toy",
+      "image": "https://i5.walmartimages.com/asr/178554d0-a564-4413-85dd-0472e0d08b8e_1.c681da5fb244ec3b6fb9963a22b87612.jpeg?odnWidth=450&odnHeight=450&odnBg=ffffff",
+      "likes": 0,
+      "id": 13
+    },
+    {
+      "name": "Another Elmo",
+      "image": "https://i5.walmartimages.com/asr/178554d0-a564-4413-85dd-0472e0d08b8e_1.c681da5fb244ec3b6fb9963a22b87612.jpeg?odnWidth=450&odnHeight=450&odnBg=ffffff",
+      "likes": 0,
+      "id": 14
+    },
+    {
+      "name": "Another Elmo #2",
+      "image": "https://i5.walmartimages.com/asr/178554d0-a564-4413-85dd-0472e0d08b8e_1.c681da5fb244ec3b6fb9963a22b87612.jpeg?odnWidth=450&odnHeight=450&odnBg=ffffff",
+      "likes": 0,
+      "id": 15
+    },
+    {
+      "name": "So many Elmos!",
+      "image": "https://i5.walmartimages.com/asr/178554d0-a564-4413-85dd-0472e0d08b8e_1.c681da5fb244ec3b6fb9963a22b87612.jpeg?odnWidth=450&odnHeight=450&odnBg=ffffff",
+      "likes": 0,
+      "id": 16
     }
   ]
 }
