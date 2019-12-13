@@ -16,7 +16,7 @@
       "id": 3,
       "name": "Mr. Potato Head",
       "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "likes": 3
+      "likes": 9
     },
     {
       "id": 4,
@@ -71,6 +71,48 @@
       "image": "https://farm7.staticflickr.com/6057/6234565071_4d20668bbd.jpg",
       "likes": 0,
       "id": 12
+    },
+    {
+      "name": "Steven",
+      "image": "https://farm9.staticflickr.com/8442/7962474612_bf2baf67c0.jpg",
+      "likes": 0,
+      "id": 13
+    },
+    {
+      "name": "ADEREMI",
+      "image": "https://farm7.staticflickr.com/6057/6234565071_4d20668bbd.jpg",
+      "likes": 0,
+      "id": 14
+    },
+    {
+      "name": "ADEREMI",
+      "image": "https://farm7.staticflickr.com/6057/6234565071_4d20668bbd.jpg",
+      "likes": 0,
+      "id": 15
+    },
+    {
+      "name": "Gary",
+      "image": "https://farm7.staticflickr.com/6057/6234565071_4d20668bbd.jpg",
+      "likes": 0,
+      "id": 16
+    },
+    {
+      "name": "Gary",
+      "image": "https://farm7.staticflickr.com/6057/6234565071_4d20668bbd.jpg",
+      "likes": 0,
+      "id": 17
+    },
+    {
+      "name": "Gary",
+      "image": "https://farm7.staticflickr.com/6057/6234565071_4d20668bbd.jpg",
+      "likes": 0,
+      "id": 18
+    },
+    {
+      "name": "Joe",
+      "image": "https://farm9.staticflickr.com/8442/7962474612_bf2baf67c0.jpg",
+      "likes": 0,
+      "id": 19
     }
   ]
 }

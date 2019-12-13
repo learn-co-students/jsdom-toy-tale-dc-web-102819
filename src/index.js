@@ -29,7 +29,6 @@ function getAllToys() {
 
 // pokemonCard.id = `pokemon-${pokemon.id}`
 function RenderToys(toy) {
-  // debugger
   let toyContainer = document.getElementById("toy-collection") 
   let newToy = document.createElement("div")
   newToy.classList.add("card") 
@@ -60,9 +59,24 @@ function RenderToys(toy) {
 }
 
 function increaseLikes(e){
+  let value =  parseInt(e.currentTarget.getElementsByTagName("p")[0].innerText.split(" ")[0], 10)
+  value += 1
+  
+  let toy_id = 3 // just to test 
   
   
-}
+  fetch(`http://localhost:3000/toys/${toy_id}`, {
+    method: "PATCH",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({"likes": value}) 
+  })
+  .then(console.log("efafewff"))
+}    
+
+
+
 
 function getToyForm(){
   return document.getElementById("new-toy")
@@ -73,18 +87,19 @@ function createToy(e){
   let newToy = {"name": document.getElementById("name-input").value,
   "image": document.getElementById("url-input").value,
   "likes": 0
-}
+  }
 
-json_string = JSON.stringify(newToy)
-fetch("http://localhost:3000/toys", {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json"
-  },
-  body: json_string
-})
-.then(res => res.json())
-.then(data => RenderToys(data))
+  json_string = JSON.stringify(newToy)
+  fetch("http://localhost:3000/toys", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json"
+    },
+    body: json_string
+  })
+  .then(res => res.json())
+  .then(data => RenderToys(data))
 
   getToyForm().reset()
 }
