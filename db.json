@@ -46,12 +46,12 @@
       "id": 8,
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": 2
+      "likes": 1
     },
     {
       "name": "Toy Soldier",
       "image": "https://previews.123rf.com/images/fabrikacrimea/fabrikacrimea1705/fabrikacrimea170518767/79093580-collection-of-traditional-toy-soldiers.jpg",
-      "likes": null,
+      "likes": 4,
       "id": 9
     },
     {
@@ -59,42 +59,6 @@
       "image": "https://i5.walmartimages.com/asr/178554d0-a564-4413-85dd-0472e0d08b8e_1.c681da5fb244ec3b6fb9963a22b87612.jpeg?odnWidth=450&odnHeight=450&odnBg=ffffff",
       "likes": 0,
       "id": 10
-    },
-    {
-      "name": "Elmo",
-      "image": "https://i5.walmartimages.com/asr/178554d0-a564-4413-85dd-0472e0d08b8e_1.c681da5fb244ec3b6fb9963a22b87612.jpeg?odnWidth=450&odnHeight=450&odnBg=ffffff",
-      "likes": null,
-      "id": 11
-    },
-    {
-      "name": "Red Monster",
-      "image": "https://i5.walmartimages.com/asr/178554d0-a564-4413-85dd-0472e0d08b8e_1.c681da5fb244ec3b6fb9963a22b87612.jpeg?odnWidth=450&odnHeight=450&odnBg=ffffff",
-      "likes": 0,
-      "id": 12
-    },
-    {
-      "name": "Sesame Street Toy",
-      "image": "https://i5.walmartimages.com/asr/178554d0-a564-4413-85dd-0472e0d08b8e_1.c681da5fb244ec3b6fb9963a22b87612.jpeg?odnWidth=450&odnHeight=450&odnBg=ffffff",
-      "likes": 0,
-      "id": 13
-    },
-    {
-      "name": "Another Elmo",
-      "image": "https://i5.walmartimages.com/asr/178554d0-a564-4413-85dd-0472e0d08b8e_1.c681da5fb244ec3b6fb9963a22b87612.jpeg?odnWidth=450&odnHeight=450&odnBg=ffffff",
-      "likes": 0,
-      "id": 14
-    },
-    {
-      "name": "Another Elmo #2",
-      "image": "https://i5.walmartimages.com/asr/178554d0-a564-4413-85dd-0472e0d08b8e_1.c681da5fb244ec3b6fb9963a22b87612.jpeg?odnWidth=450&odnHeight=450&odnBg=ffffff",
-      "likes": 0,
-      "id": 15
-    },
-    {
-      "name": "So many Elmos!",
-      "image": "https://i5.walmartimages.com/asr/178554d0-a564-4413-85dd-0472e0d08b8e_1.c681da5fb244ec3b6fb9963a22b87612.jpeg?odnWidth=450&odnHeight=450&odnBg=ffffff",
-      "likes": 0,
-      "id": 16
     }
   ]
 }

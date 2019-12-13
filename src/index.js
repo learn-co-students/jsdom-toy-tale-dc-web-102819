@@ -2,8 +2,6 @@ let addToy = false
 
 const urlPrefix = 'http://localhost:3000/toys';
 
-
-
 document.addEventListener("DOMContentLoaded", ()=>{
   const addBtn = document.querySelector('#new-toy-btn')
   const toyForm = document.querySelector('.container')
@@ -17,7 +15,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
     }
   })
 
-  
   let newToyForm = document.getElementById('new-toy-form')
   newToyForm.addEventListener('submit', postToy);
 
@@ -25,7 +22,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
 })
 
 function createCard(toy, container) {
-
   let card = document.createElement('div');
   card.setAttribute('class', 'card');
   card.id = 'card-' + toy.id;
@@ -98,33 +94,28 @@ function like(event){
   let cardId = event.currentTarget.parentNode.id;
   let toyId = cardId.split('-')[1]
   let newLike;
-    if (event.currentTarget.parentNode.querySelector === 'Unloved toy') {
+    if (isNaN(parseInt(event.currentTarget.parentNode.querySelector('p').innerText.split(" ")[0]))) {
+      debugger
       newLike = 1;
     } else {
+      debugger
       newLike = parseInt(event.currentTarget.parentNode.querySelector('p').innerText.split(" ")[0]) + 1
     }
 
   let configObj = {
-
     method: 'PATCH',
     headers: {
       "Content-Type": "application/json",
       Accept: "application/json"
     },
-
     body: JSON.stringify({
-      
       "likes": newLike
-
     })
   }
-
   
   let url = urlPrefix + '/' + toyId
 
   fetch(url, configObj).then(response => response.json()).then(data => updateLike(cardId))
-
-
 }
 
 function updateLike(toy){
