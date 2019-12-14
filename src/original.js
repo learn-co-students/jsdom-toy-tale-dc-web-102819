@@ -36,9 +36,12 @@ function RenderToys(toy) {
   
   let toyNameLabel = document.createElement("h2") 
   toyNameLabel.innerText = toy.name
+  
   let displayImage = document.createElement("img")
   displayImage.src = toy.image
   displayImage.classList.add("toy-avatar") 
+
+
   let toyLikesLabel = document.createElement("p")
   toyLikesLabel.innerText = `${toy.likes} Likes`
   toyLikesLabel.id = `likelabel-${toy.id}`
